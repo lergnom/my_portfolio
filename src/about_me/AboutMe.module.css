@@ -3,15 +3,7 @@
     background-color: #29a880;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: 1px solid;
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-}
+
 
 .info {
     width: 300px;
