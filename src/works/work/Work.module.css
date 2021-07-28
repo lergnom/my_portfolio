@@ -1,4 +1,4 @@
-.skill {
+.work {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,11 +7,7 @@
 
 }
 
-.skillIcon {
-    width: 60px;
-    height: 60px;
-    background-color: black;
-}
 
-.skillDesc {
+
+.workDesc {
 }

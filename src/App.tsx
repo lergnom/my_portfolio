@@ -4,6 +4,7 @@ import './App.css';
 import Header from "./header/Header";
 import AboutMe from "./about_me/AboutMe";
 import Skills from "./skills/Skills";
+import Works from "./works/Works";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Header/>
             <AboutMe/>
             <Skills/>
+            <Works/>
         </div>
     );
 }

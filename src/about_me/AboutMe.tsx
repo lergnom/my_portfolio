@@ -6,7 +6,7 @@ const AboutMe = () => {
 
     return (
         <div className={style.aboutMe}>
-            <div className={styleContainer.container}>
+            <div className={`${styleContainer.container} ${style.container}`}>
                 <div className={style.info}>
                     <span>Привет!</span>
                     <h1>Меня зовут Асмоловский Антон</h1>

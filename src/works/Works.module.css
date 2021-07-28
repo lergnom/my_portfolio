@@ -1,12 +1,12 @@
-.skillsBlock {
+.worksBlock {
     height: 100vh;
 }
 
-.skillsContainer {
+.worksContainer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    background-color: #5ec94d;
+    background-color: #ae4dc9;
 
 }
 
@@ -14,11 +14,10 @@
     background-color: #6d7c78;
 }
 
-.skills {
+.works {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     border: 1px solid;
-
 }
