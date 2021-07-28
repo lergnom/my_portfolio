@@ -12,7 +12,7 @@ const Skill = ({skillTitle, skillDesc}: SkillType) => {
         <div className={style.skill}>
             <div className={style.skillIcon}></div>
             <h3 className={style.skillTitle}>{skillTitle}</h3>
-            <span className={style.skillDesc}>{skillDesc}</span>
+            <p className={style.skillDesc}>{skillDesc}</p>
         </div>
     )
 

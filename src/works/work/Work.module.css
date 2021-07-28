@@ -1,13 +1,27 @@
 .work {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 250px;
+    align-items: flex-start; /*center*/
+    width: 550px;
     background-color: #fff;
+    /*cursor: default;*/
+}
 
+.workImgBackground {
+    height: 355px;
+    width: 550px;
+    background-color: #108c76;
+}
+
+.wokInfo {
+    margin-left: 10px;
+}
+
+.workTitle {
+    background: #6d7c78;
 }
 
 
-
 .workDesc {
+    background: #6d7c78;
 }
