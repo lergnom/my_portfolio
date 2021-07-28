@@ -4,7 +4,16 @@
     align-items: center;
     width: 250px;
     background-color: #fff;
+}
 
+@media (max-width: 629px) {
+    .skill {
+        margin-bottom: 10px;
+    }
+
+    .skill:last-child {
+        margin-bottom: 0px;
+    }
 }
 
 .skillIcon {

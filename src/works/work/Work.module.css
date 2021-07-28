@@ -4,13 +4,31 @@
     align-items: flex-start; /*center*/
     width: 550px;
     background-color: #fff;
-    /*cursor: default;*/
+}
+
+@media (max-width: 690px) {
+    .work {
+        margin-bottom: 10px;
+    }
+
+    .work:last-child {
+        margin-bottom: 0px;
+    }
 }
 
 .workImgBackground {
     height: 355px;
     width: 550px;
     background-color: #108c76;
+}
+
+@media (max-width: 690px) {
+    .workImgBackground {
+        height: auto;
+        width: auto;
+        max-width: 500px;
+        max-height: 355px;
+    }
 }
 
 .wokInfo {
