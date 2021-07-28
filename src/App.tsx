@@ -6,6 +6,7 @@ import AboutMe from "./about_me/AboutMe";
 import Skills from "./skills/Skills";
 import Works from "./works/Works";
 import RemoteJob from "./remoteJob/RemoteJob";
+import Contacts from "./contacts/Contacts";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Skills/>
             <Works/>
             <RemoteJob/>
+            <Contacts/>
         </div>
     );
 }

@@ -1,6 +1,6 @@
-.remoteJob {
+.contacts {
     /*height: 100vh;*/
-    background-color: yellow;
+    background-color: #ea39b6;
 }
 
 .container {
@@ -13,5 +13,10 @@
 
 .title {
     background-color: #6d7c78;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
 }
 

@@ -12,7 +12,6 @@ const RemoteJob = () => {
                 <h3 className={style.title}>Рассмотрю варианты удаленной работы</h3>
                 <button name={'takeMe'} onClick={takeMe}>Нанять меня</button>
             </div>
-
         </div>
     )
 
