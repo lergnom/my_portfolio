@@ -5,10 +5,10 @@ const Nav = () => {
 
     return (
         <div className={style.nav}>
-            <a href="">Главная</a>
-            <a href="">Опыт</a>
-            <a href="">Проекты</a>
-            <a href="">Контакты</a>
+            <a href="main">Главная</a>
+            <a href="skills">Опыт</a>
+            <a href="works">Проекты</a>
+            <a href="contacts">Контакты</a>
         </div>
     )
 

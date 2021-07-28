@@ -1,12 +1,13 @@
 .worksBlock {
-    height: 100vh;
+    /*height: 100vh;*/
+    background-color: #ae4dc9;
+
 }
 
 .worksContainer {
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    background-color: #ae4dc9;
+    /*align-items: center;*/
+    justify-content: center;
+    /*flex-direction: column;*/
     height: auto;
 
 
