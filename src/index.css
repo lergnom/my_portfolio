@@ -1,6 +1,13 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: bottom;
+    background: transparent;
 }
 
 img {
@@ -8,6 +15,7 @@ img {
     height: auto;
     vertical-align: top;
 }
+
 
 /*body,*/
 /*hr,*/
@@ -42,6 +50,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     cursor: default;
+    color: #333333;
 
 }
 

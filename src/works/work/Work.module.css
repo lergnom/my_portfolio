@@ -4,6 +4,7 @@
     align-items: flex-start; /*center*/
     width: 550px;
     background-color: #fff;
+
 }
 
 @media (max-width: 690px) {
