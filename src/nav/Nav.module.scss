@@ -1,0 +1,41 @@
+.nav {
+  float: right;
+  position: static;
+  background: transparent;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: bottom;
+    background: transparent;
+
+    li {
+
+      display: inline-block;
+      float: left;
+      position: relative;
+      height: 92px;
+      border: 0px;
+
+      a {
+        display: block;
+        color: #FFF;
+        line-height: 92px;
+        padding: 0 1em;
+        text-decoration: none;
+      }
+
+    }
+  }
+
+
+}

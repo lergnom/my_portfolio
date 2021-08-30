@@ -24,6 +24,16 @@ img {
 /*    text-decoration: none;*/
 /*}*/
 
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('./common/fonts/ProximaNova-Light.eot');
+    src: url('./common/fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('./common/fonts/ProximaNova-Light.woff') format('woff'),
+    url('./common/fonts/ProximaNova-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
