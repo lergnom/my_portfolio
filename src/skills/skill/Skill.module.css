@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     width: 250px;
-    /*background-color: #fff;*/
 }
 
 @media (max-width: 629px) {
@@ -19,7 +18,6 @@
 .skillIcon {
     width: 100px;
     height: 100px;
-    /*background-color: black;*/
 }
 
 .skillDesc {
