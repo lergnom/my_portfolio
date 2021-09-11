@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Skills.module.css"
+import style from "./Skills.module.scss"
 import styleContainer from './../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 
@@ -13,7 +13,7 @@ const Skills = () => {
                 <div className={style.skills}>
                     <Skill skillTitle={'JS'} skillDesc={'TypeScript, UnitTests, Git'}/>
                     <Skill skillTitle={'React'} skillDesc={'HOC, HOOK, REDUX'}/>
-                    <Skill skillTitle={'HTML'} skillDesc={'Разработка веб сайтов'}/>
+                    <Skill skillTitle={'HTML/CSS'} skillDesc={'Gulp, Pug, SCSS, LESS, BEM naming, Git/hub/pages'}/>
                     <Skill skillTitle={'PHP'} skillDesc={'MVC,RedBean, MySQL, PDO'}/>
                 </div>
             </div>
