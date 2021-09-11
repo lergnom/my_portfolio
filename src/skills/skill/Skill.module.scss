@@ -1,0 +1,45 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+
+  @media (max-width: 629px) {
+    margin-bottom: 30px;
+  }
+
+  .skillIcon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .skillTitle {
+  
+  }
+
+  .skillDesc {
+    text-align: center;
+  }
+
+  @media (max-width: 629px) {
+    .skill {
+      margin-bottom: 10px;
+    }
+
+    .skill:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+//
+//@media (max-width: 629px) {
+//  .skill {
+//    margin-bottom: 10px;
+//  }
+//
+//  .skill:last-child {
+//    margin-bottom: 0px;
+//  }
+//}
+//
