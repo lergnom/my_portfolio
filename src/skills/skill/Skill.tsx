@@ -42,6 +42,14 @@ const Skill = ({
                             stroke={circleColorTwo ? circleColorTwo : "#b1c94e"} stroke-width="3"
                             stroke-dasharray={strCircleTwo}
                             stroke-dashoffset="25"></circle>}
+                    <g className={style.chartText}>
+                        <text x="50%" y="50%" className={style.chartNumber}>
+                            {circleOneB} {circleTwoB && circleTwoB}
+                        </text>
+                        {/*<text x="50%" y="50%" className={style.chartLabel}>*/}
+                        {/*    Beers*/}
+                        {/*</text>*/}
+                    </g>
                 </svg>
             </div>
             <h3 className={style.skillTitle}>{skillTitle}</h3>
