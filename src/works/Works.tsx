@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Works.module.css"
+import style from "./Works.module.scss"
 import styleContainer from './../common/styles/Container.module.css'
 import Work from "./work/Work";
 
@@ -9,7 +9,7 @@ const Works = () => {
     return (
         <div className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
-                <h2 className={style.title}>Мои работы</h2>
+                <h3>My works</h3>
                 <div className={style.works}>
                     <Work workTitle={"Социальная сеть"} workDesc={'Пример работы'}
                           workImg={'itphotos_59728757-stock-photo-waiting-for-a-new-day.jpg'}

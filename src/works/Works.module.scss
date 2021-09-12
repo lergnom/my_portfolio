@@ -1,0 +1,28 @@
+.worksBlock {
+  /*height: 100vh;*/
+  padding: 30px 0;
+  border-bottom: #dddddd solid 1px;
+
+  .worksContainer {
+    /*align-items: center;*/
+    justify-content: center;
+    /*flex-direction: column;*/
+    height: auto;
+
+    .works {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      border: 1px solid;
+    }
+  }
+
+}
+
+
+//
+//.title {
+//    background-color: #6d7c78;
+//}
+//

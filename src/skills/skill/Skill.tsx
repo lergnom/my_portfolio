@@ -52,7 +52,7 @@ const Skill = ({
                     </g>
                 </svg>
             </div>
-            <h3 className={style.skillTitle}>{skillTitle}</h3>
+            <h4 className={style.skillTitle}>{skillTitle}</h4>
             <p className={style.skillDesc}>{skillDesc}</p>
         </div>
     )
