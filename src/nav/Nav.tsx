@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Nav.module.scss"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCodepen, faFacebookF, faGithub, faLinkedinIn, faVk} from '@fortawesome/free-brands-svg-icons';
+import codewars from './../common/images/codewarsnew.png';
 
 const Nav = () => {
 
@@ -21,7 +22,6 @@ const Nav = () => {
                 </li>
                 <li>
                     <ul className={style.social}>
-                        <li><FontAwesomeIcon icon={faCodepen}/></li>
                         <li><a href="https://github.com/lergnom"
                                title="Follow me on GitHub"
                                target="_blank"><FontAwesomeIcon icon={faGithub}/></a></li>
@@ -42,7 +42,7 @@ const Nav = () => {
 
 
         </nav>
-    )
+)
 
 }
 

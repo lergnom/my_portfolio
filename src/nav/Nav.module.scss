@@ -1,11 +1,12 @@
 .nav {
-  float: right;
-  position: static;
-  background: transparent;
-  width: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  margin-right: 40px;
+  //float: right;
+  //position: static;
+  //background: transparent;
+  //width: auto;
+  //display: flex;
+  //flex-wrap: wrap;
+  //justify-content: space-between;
 
   ul {
     display: flex;
@@ -32,7 +33,14 @@
         line-height: 92px;
         padding: 0 1em;
         text-decoration: none;
+
+        &:hover {
+          opacity: 0.9;
+          color: black;
+        }
+
       }
+
 
     }
 
