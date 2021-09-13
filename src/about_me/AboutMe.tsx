@@ -1,9 +1,7 @@
 import React from "react";
 import style from "./AboutMe.module.scss";
 import styleContainer from './../common/styles/Container.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import myPhoto from './../common/images/foto.png';
 
 
 const AboutMe = () => {
@@ -33,7 +31,7 @@ const AboutMe = () => {
                         In my spare time, I do web development, play with children and travel on a motorcycle.</p>
                 </div>
                 <div className={style.photo}>
-                    <img src="#"
+                    <img src={myPhoto}
                          alt="anton asmolovskiy"/>
 
 

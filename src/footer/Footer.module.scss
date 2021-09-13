@@ -18,14 +18,18 @@
       justify-content: space-between;
       width: 280px;
       margin-bottom: 10px;
+      list-style-type: none;
 
 
-      .socialIcon {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        background-color: #ffcd10;
+      a {
+        color: #949494;
+
+        &:hover {
+          opacity: 0.8;
+          color: #000000;
+        }
       }
+
 
       @media (max-width: 350px) {
         width: auto;

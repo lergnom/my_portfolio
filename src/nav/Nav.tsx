@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Nav.module.scss"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCodepen, faFacebookF, faGithub, faLinkedinIn, faVk} from '@fortawesome/free-brands-svg-icons';
-import codewars from './../common/images/codewarsnew.png';
+
 
 const Nav = () => {
 
