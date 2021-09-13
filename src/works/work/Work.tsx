@@ -1,11 +1,11 @@
 import React from "react";
-import style from "./Work.module.css"
+import style from "./Work.module.scss"
 
 type WorkType = {
     workTitle: string
     workDesc: string
     workImg: string
-    workLink:string
+    workLink: string
 }
 
 const Work = ({workTitle, workDesc, workImg, workLink}: WorkType) => {
@@ -19,7 +19,7 @@ const Work = ({workTitle, workDesc, workImg, workLink}: WorkType) => {
 
             </a>
             <div className={style.wokInfo}>
-                <h3 className={style.workTitle}>{workTitle}</h3>
+                <h4 className={style.workTitle}>{workTitle}</h4>
                 <p className={style.workDesc}>{workDesc}</p>
             </div>
 
