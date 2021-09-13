@@ -12,7 +12,7 @@ const Work = ({workTitle, workDesc, workImg, workLink}: WorkType) => {
 
     return (
         <div className={style.work}>
-            <a href={workLink}>
+            <a href={workLink} target="_blank">
                 <div className={style.workImgBackground}>
                     <img src={workImg} alt={workTitle}/>
                 </div>

@@ -1,6 +1,9 @@
 import React from "react";
-import style from "./AboutMe.module.scss"
-import styleContainer from './../common/styles/Container.module.css'
+import style from "./AboutMe.module.scss";
+import styleContainer from './../common/styles/Container.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faReact } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 const AboutMe = () => {
@@ -24,7 +27,6 @@ const AboutMe = () => {
                         <h1>Anton</h1>
                         <h2>smolovskiy</h2>
                     </div>
-
                     <p className={style.intro}>I'm a lead programmer && service engeener, from Russia.</p>
                     <p className={style.description}>At work, I program industrial controllers, make sure that everyone
                         has a stable Internet and peripheral equipment does not fail.

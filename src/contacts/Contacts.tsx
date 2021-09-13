@@ -20,7 +20,7 @@ const Contacts = () => {
                         <label>Message</label>
                         <textarea className={`${style.input} ${style.rightSide}`} name="description"></textarea>
                         <button className={`toHireMe ${style.submit}`} name="sendForm" value="formButton"
-                                type="submit">Отправить
+                                type="submit">send
                         </button>
                     </div>
 

@@ -11,7 +11,7 @@ const RemoteJob = () => {
             <div className={`${styleContainer.container} ${style.container}`}>
                 <h3 className={style.title}>I will consider options for remote work</h3>
                 <div className={style.linkWrap}>
-                    <a className={'toHireMe'} onClick={takeMe}>Нанять меня</a>
+                    <a className={'toHireMe'} onClick={takeMe}>Hire me</a>
                 </div>
             </div>
         </div>
