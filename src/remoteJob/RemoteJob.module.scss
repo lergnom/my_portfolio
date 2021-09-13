@@ -1,17 +1,43 @@
 .remoteJob {
-  /*height: 100vh;*/
-  background-color: yellow;
+  background-color: #fafafa;
+  border-bottom: #dddddd solid 1px;
 
   .container {
     justify-content: center;
     flex-direction: column;
 
     padding-bottom: 20px;
+  }
 
+  .toHireMe {
+    font-family: "proxima nova semibold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    color: #ffffff;
+    background-color: #333333;
+    font-size: 18px;
+    font-size: 1.8rem;
+    border: #333333 solid 1px;
+    vertical-align: middle;
+    height: 4.8rem;
+    display: block;
+    width: 25%;
+    text-align: center;
+    line-height: 4.8rem;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-clip: padding-box;
+    appearance: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .linkWrap {
+    min-width: 200px;
   }
 
   .title {
-    background-color: #6d7c78;
   }
 }
 

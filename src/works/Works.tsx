@@ -9,6 +9,7 @@ import protectBuy from './myworks/HTML/protectBuy.jpg';
 import smsGoi from './myworks/HTML/sendsmsGoi.jpg';
 import socialProject from './myworks/HTML/social.jpg';
 import todolistProject from './myworks/HTML/todolist.jpg';
+import budjetClac from './myworks/HTML/budjetCalc.jpg';
 
 
 const Works = () => {
@@ -18,22 +19,25 @@ const Works = () => {
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 <h3>My works</h3>
                 <div className={style.works}>
-                    <Work workTitle={"Forest Travel"} workDesc={'Travel site layout. Training work.'}
+                    <Work workTitle={"Forest Travel"} workDesc={'Travel site layout. HTML/CSS. Training work.'}
                           workImg={forestTravel}
                           workLink={'http://forest.ogsr.ru/index.html'}/>
 
                     <Work workTitle={"Unit. "}
-                          workDesc={'Example landing page product. Training work.'}
+                          workDesc={'Example landing page product. HTML/CSS. Training work.'}
                           workImg={unitLanding} workLink={'http://unit.ogsr.ru/'}/>
 
+                    <Work workTitle={"Budget calculator"}
+                          workDesc={'Example MVC project. JS. Training work.'}
+                          workImg={budjetClac} workLink={'https://lergnom.github.io/budjetCalc/'}/>
+
                     <Work workTitle={"Social network "}
-                          workDesc={'Single page application with React/Redux. Training work.'}
+                          workDesc={'Single page application with React/Redux/TypeScript. Training work.'}
                           workImg={socialProject} workLink={'https://github.com/lergnom/social'}/>
 
                     <Work workTitle={"Todolist "}
-                          workDesc={'Single page application with React/Redux. Training work.'}
+                          workDesc={'Single page application with React/Redux/TypeScript. Training work.'}
                           workImg={todolistProject} workLink={'https://github.com/lergnom/Todolist'}/>
-
 
                     <Work workTitle={"Protect buy. Delivery."}
                           workDesc={'Development of a web page for an entrepreneur engaged in the delivery of goods from online stores to customers.'}

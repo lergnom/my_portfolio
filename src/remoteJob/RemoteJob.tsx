@@ -4,13 +4,15 @@ import styleContainer from './../common/styles/Container.module.css'
 
 const RemoteJob = () => {
     const takeMe = () => {
-        alert('Благодарю')
+        alert('Благодарю!!! уже Лечу...')
     }
     return (
         <div className={style.remoteJob}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <h3 className={style.title}>Рассмотрю варианты удаленной работы</h3>
-                <button name={'takeMe'} onClick={takeMe}>Нанять меня</button>
+                <h3 className={style.title}>I will consider options for remote work</h3>
+                <div className={style.linkWrap}>
+                    <a className={'toHireMe'} onClick={takeMe}>Нанять меня</a>
+                </div>
             </div>
         </div>
     )
