@@ -3,17 +3,20 @@
 
   .container {
     justify-content: space-around;
+    @media (max-width: 569px) {
+      justify-content: center;
+    }
 
     .info {
       width: 400px;
-      @media (max-width: 320px) {
+      @media (max-width: 349px) {
         width: 280px;
       }
 
       h1 {
         font-size: 8rem;
         color: dimgrey;
-        @media (max-width: 320px) {
+        @media (max-width: 349px) {
           font-size: 6rem;
         }
 
@@ -25,7 +28,7 @@
         margin-left: 40px;
         color: silver;
 
-        @media (max-width: 320px) {
+        @media (max-width: 349px) {
           font-size: 2.7rem;
           margin-top: -62px;
           margin-left: 35px;
