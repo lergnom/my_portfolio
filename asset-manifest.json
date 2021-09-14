@@ -1,22 +1,31 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.582ae3e9.chunk.css",
-    "main.js": "/my_portfolio/static/js/main.b084d8cb.chunk.js",
-    "main.js.map": "/my_portfolio/static/js/main.b084d8cb.chunk.js.map",
-    "runtime-main.js": "/my_portfolio/static/js/runtime-main.60437cf8.js",
-    "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.60437cf8.js.map",
-    "static/js/2.126fce98.chunk.js": "/my_portfolio/static/js/2.126fce98.chunk.js",
-    "static/js/2.126fce98.chunk.js.map": "/my_portfolio/static/js/2.126fce98.chunk.js.map",
-    "static/js/3.0edd7ed0.chunk.js": "/my_portfolio/static/js/3.0edd7ed0.chunk.js",
-    "static/js/3.0edd7ed0.chunk.js.map": "/my_portfolio/static/js/3.0edd7ed0.chunk.js.map",
+    "main.css": "/my_portfolio/static/css/main.948f2382.chunk.css",
+    "main.js": "/my_portfolio/static/js/main.ffd306da.chunk.js",
+    "main.js.map": "/my_portfolio/static/js/main.ffd306da.chunk.js.map",
+    "runtime-main.js": "/my_portfolio/static/js/runtime-main.91b7261f.js",
+    "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.91b7261f.js.map",
+    "static/js/2.ac72530d.chunk.js": "/my_portfolio/static/js/2.ac72530d.chunk.js",
+    "static/js/2.ac72530d.chunk.js.map": "/my_portfolio/static/js/2.ac72530d.chunk.js.map",
+    "static/js/3.3f551bb1.chunk.js": "/my_portfolio/static/js/3.3f551bb1.chunk.js",
+    "static/js/3.3f551bb1.chunk.js.map": "/my_portfolio/static/js/3.3f551bb1.chunk.js.map",
     "index.html": "/my_portfolio/index.html",
-    "static/css/main.582ae3e9.chunk.css.map": "/my_portfolio/static/css/main.582ae3e9.chunk.css.map",
-    "static/js/2.126fce98.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.126fce98.chunk.js.LICENSE.txt"
+    "static/css/main.948f2382.chunk.css.map": "/my_portfolio/static/css/main.948f2382.chunk.css.map",
+    "static/js/2.ac72530d.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.ac72530d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/my_portfolio/static/media/ProximaNova-Light.f70705f2.ttf",
+    "static/media/budjetCalc.2de3f6b6.jpg": "/my_portfolio/static/media/budjetCalc.2de3f6b6.jpg",
+    "static/media/forestTravelnew.469204c3.jpg": "/my_portfolio/static/media/forestTravelnew.469204c3.jpg",
+    "static/media/foto.75537e24.png": "/my_portfolio/static/media/foto.75537e24.png",
+    "static/media/protectBuy.48c473c3.jpg": "/my_portfolio/static/media/protectBuy.48c473c3.jpg",
+    "static/media/sendsmsGoi.bc93eedd.jpg": "/my_portfolio/static/media/sendsmsGoi.bc93eedd.jpg",
+    "static/media/social.77d4eee2.jpg": "/my_portfolio/static/media/social.77d4eee2.jpg",
+    "static/media/todolist.370c5be9.jpg": "/my_portfolio/static/media/todolist.370c5be9.jpg",
+    "static/media/unit.9cd31998.jpg": "/my_portfolio/static/media/unit.9cd31998.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.60437cf8.js",
-    "static/js/2.126fce98.chunk.js",
-    "static/css/main.582ae3e9.chunk.css",
-    "static/js/main.b084d8cb.chunk.js"
+    "static/js/runtime-main.91b7261f.js",
+    "static/js/2.ac72530d.chunk.js",
+    "static/css/main.948f2382.chunk.css",
+    "static/js/main.ffd306da.chunk.js"
   ]
 }
