@@ -6,13 +6,11 @@
     }
   }
 
-
   .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 
     .title {
       color: #949494;
@@ -25,7 +23,6 @@
       margin-bottom: 10px;
       list-style-type: none;
 
-
       a {
         color: #949494;
 
@@ -37,9 +34,7 @@
           opacity: 0.8;
           color: #000000;
         }
-
       }
-
 
       @media (max-width: 350px) {
         width: auto;
@@ -47,13 +42,10 @@
       }
     }
 
-
     .copyright {
       color: #949494;
     }
-
   }
-
 }
 
 

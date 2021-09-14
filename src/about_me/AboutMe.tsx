@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./AboutMe.module.scss";
-import styleContainer from './../common/styles/Container.module.css';
+import styleContainer from '../common/styles/Container.module.scss';
 import myPhoto from './../common/images/foto.png';
 
 
@@ -30,6 +30,7 @@ const AboutMe = () => {
                         has a stable Internet and peripheral equipment does not fail.
                         In my spare time, I do web development, play with children and travel on a motorcycle.</p>
                 </div>
+                <a id={"skills"}></a>
                 <div className={style.photo}>
                     <img src={myPhoto}
                          alt="anton asmolovskiy"/>
@@ -37,6 +38,7 @@ const AboutMe = () => {
 
                 </div>
             </div>
+
         </section>
     )
 

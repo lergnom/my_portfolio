@@ -12,13 +12,15 @@ const Nav = () => {
 
             <ul>
                 <li>
-                    <a href="myworks">portfolio</a>
+                    <a href="#myworks">portfolio</a>
+
                 </li>
                 <li>
-                    <a href="skills">skills</a>
+                    <a href="#skills">skills</a>
                 </li>
                 <li>
-                    <a href="contacts">contacts</a>
+                    <a href="#contacts">contacts</a>
+
                 </li>
                 <li>
                     <ul className={style.social}>

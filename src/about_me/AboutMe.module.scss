@@ -1,5 +1,4 @@
 .aboutMe {
-  /*height: 100vh;*/
   border-bottom: #dddddd solid 1px;
 
   .container {
@@ -10,7 +9,6 @@
       @media (max-width: 320px) {
         width: 280px;
       }
-
 
       h1 {
         font-size: 8rem;
@@ -56,13 +54,12 @@
         height: 333px;
       }
       @media (max-width: 569px) {
-        //max-width: 456px;
         height: auto;
 
         img {
           width: 150px;
           height: 150px;
-          background-color: green;
+          background-color: silver;
           border-radius: 50%;
         }
 

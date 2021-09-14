@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Skills.module.scss"
-import styleContainer from './../common/styles/Container.module.css'
+import styleContainer from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
 
 
@@ -8,6 +8,7 @@ const Skills = () => {
 
     return (
         <div className={style.skillsBlock}>
+
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h3>Skills</h3>
                 <div className={style.skills}>
@@ -16,7 +17,8 @@ const Skills = () => {
                     <Skill skillTitle={'React'} skillDesc={'HOC, HOOK, REDUX'} circleOneB={55}
                            circleColorOne={"#61dbfb"}/>
                     <Skill skillTitle={'HTML/CSS'} skillDesc={'Gulp, Pug, SCSS, LESS, BEM naming, Git/hub/pages'}
-                           circleOneB={90} circleColorOne={"#e00007"} circleColorTwo={"rgb(112,138,224)"} circleTwoB={50}/>
+                           circleOneB={90} circleColorOne={"#e00007"} circleColorTwo={"rgb(112,138,224)"}
+                           circleTwoB={50}/>
                     <Skill skillTitle={'PHP'} skillDesc={'MVC,RedBean, MySQL, PDO'} circleOneB={70}
                            circleColorOne={"#474a8a"}/>
                 </div>

@@ -28,6 +28,11 @@
     background-clip: padding-box;
     appearance: none;
 
+    @media (max-width: 957px) {
+      height: 2.8rem;
+      line-height: 2.8rem;
+    }
+
     &:hover {
       opacity: 0.8;
     }

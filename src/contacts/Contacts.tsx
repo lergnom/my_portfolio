@@ -1,11 +1,12 @@
 import React from "react";
 import style from "./Contacts.module.scss"
-import styleContainer from './../common/styles/Container.module.css'
+import styleContainer from '../common/styles/Container.module.scss'
 
 const Contacts = () => {
 
     return (
         <div className={style.contacts}>
+            <a id={"contacts"}></a>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <h3 className={style.title}>Contacts</h3>
                 <form className={style.form} action="">

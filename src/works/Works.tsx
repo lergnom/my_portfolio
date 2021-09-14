@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Works.module.scss"
-import styleContainer from './../common/styles/Container.module.css'
+import styleContainer from '../common/styles/Container.module.scss'
 import Work from "./work/Work";
 
 import forestTravel from './myworks/HTML/forestTravelnew.jpg';
@@ -16,6 +16,7 @@ const Works = () => {
 
     return (
         <div className={style.worksBlock}>
+            <a id={"myworks"}></a>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 <h3>My works</h3>
                 <div className={style.works}>
