@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Nav.module.scss"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faCodepen, faFacebookF, faGithub, faLinkedinIn, faVk} from '@fortawesome/free-brands-svg-icons';
+import {faFacebookF, faGithub, faLinkedinIn, faVk} from '@fortawesome/free-brands-svg-icons';
 
 
 const Nav = () => {
@@ -12,13 +12,13 @@ const Nav = () => {
 
             <ul>
                 <li>
-                    <a href="main">portfolio</a>
+                    <a href="myworks">portfolio</a>
                 </li>
                 <li>
-                    <a href="main">skills</a>
+                    <a href="skills">skills</a>
                 </li>
                 <li>
-                    <a href="main">contacts</a>
+                    <a href="contacts">contacts</a>
                 </li>
                 <li>
                     <ul className={style.social}>
@@ -42,7 +42,7 @@ const Nav = () => {
 
 
         </nav>
-)
+    )
 
 }
 

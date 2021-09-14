@@ -1,5 +1,10 @@
 .footer {
   background-color: #282a2c;
+  @media (max-width: 350px) {
+    h3 {
+      font-size: 15px;
+    }
+  }
 
 
   .container {
@@ -24,10 +29,15 @@
       a {
         color: #949494;
 
+        @media (max-width: 350px) {
+          padding: 0 5px;
+        }
+
         &:hover {
           opacity: 0.8;
           color: #000000;
         }
+
       }
 
 

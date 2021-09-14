@@ -12,6 +12,10 @@
     flex-wrap: wrap;
     justify-content: center;
 
+    @media (max-width: 569px) {
+      display: none;
+    }
+
     .leftSide {
       margin-right: 25px;
     }
