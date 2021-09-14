@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.948f2382.chunk.css",
-    "main.js": "/my_portfolio/static/js/main.ffd306da.chunk.js",
-    "main.js.map": "/my_portfolio/static/js/main.ffd306da.chunk.js.map",
+    "main.css": "/my_portfolio/static/css/main.4bb35c94.chunk.css",
+    "main.js": "/my_portfolio/static/js/main.1039235c.chunk.js",
+    "main.js.map": "/my_portfolio/static/js/main.1039235c.chunk.js.map",
     "runtime-main.js": "/my_portfolio/static/js/runtime-main.91b7261f.js",
     "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.91b7261f.js.map",
     "static/js/2.ac72530d.chunk.js": "/my_portfolio/static/js/2.ac72530d.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3f551bb1.chunk.js": "/my_portfolio/static/js/3.3f551bb1.chunk.js",
     "static/js/3.3f551bb1.chunk.js.map": "/my_portfolio/static/js/3.3f551bb1.chunk.js.map",
     "index.html": "/my_portfolio/index.html",
-    "static/css/main.948f2382.chunk.css.map": "/my_portfolio/static/css/main.948f2382.chunk.css.map",
+    "static/css/main.4bb35c94.chunk.css.map": "/my_portfolio/static/css/main.4bb35c94.chunk.css.map",
     "static/js/2.ac72530d.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.ac72530d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/my_portfolio/static/media/ProximaNova-Light.f70705f2.ttf",
     "static/media/budjetCalc.2de3f6b6.jpg": "/my_portfolio/static/media/budjetCalc.2de3f6b6.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.91b7261f.js",
     "static/js/2.ac72530d.chunk.js",
-    "static/css/main.948f2382.chunk.css",
-    "static/js/main.ffd306da.chunk.js"
+    "static/css/main.4bb35c94.chunk.css",
+    "static/js/main.1039235c.chunk.js"
   ]
 }
